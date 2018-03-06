@@ -9,15 +9,15 @@ html {
 body {
   font-family: sans-serif;
   margin: 0;
-  background-image: linear-gradient(260deg, #2376ae 0%, #c16ecf 100%);
+  background-image: white;
 }
 
 .flex-nav a {
-  color:white;
+  color:#484848;
   font-weight: 100;
   letter-spacing: 2px;
   text-decoration: none;
-  background:rgba(0,0,0,0.2);
+  background:#fafafa;
   padding:20px 5px;
   display: inline-block;
   width: 100%;
@@ -25,18 +25,23 @@ body {
   transition:all 0.5s;
 }
 
+.projects {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .projects a {
-  color:white;
+  color:#484848;
   font-weight: 100;
   letter-spacing: 2px;
   text-decoration: none;
   background:rgba(0,0,0,0.4);
   padding:20px 5px;
-  display: inline-block;
-  width: 100%;
+  min-width:50%;
   text-align: center;
   transition:all 0.25s;
-  direction: flex;
+  min-height: 300px;
 }
 
 a:hover {
@@ -67,7 +72,7 @@ section, footer {
   background:rgba(0,0,0,0.2);
   padding:20px;
   margin:20px 0;
-  color:white;
+  color:black;
   font-weight: 100;
 }
 
@@ -87,6 +92,34 @@ section, footer {
 .flex-nav social {
   flex:1;
 }
+
+.about {
+    font-weight: normal !important;
+    margin: 0px !important;
+    word-wrap: break-word !important;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+    font-size: 15px !important;
+    line-height: 18px !important;
+    letter-spacing: 0.2px !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    color: #484848 !important;
+}
+
+.about {
+  display:flex;
+  align-content: center;
+  background-color:#fafafa;
+}
+
+.about .title{
+  flex:1;
+}
+
+.about .content{
+  flex:2;
+}
+
 
 @media all and (max-width:1000px) {
 
