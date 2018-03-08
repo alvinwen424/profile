@@ -1,5 +1,16 @@
-const layout = function () {
-  //this handles the project popups
+var Layout = function () {
+    // detect mobile device
+    var isMobileDevice = function() {
+        return  ((
+            navigator.userAgent.match(/Android/i) ||
+            navigator.userAgent.match(/BlackBerry/i) ||
+            navigator.userAgent.match(/iPhone|iPad|iPod/i) ||
+            navigator.userAgent.match(/Opera Mini/i) ||
+            navigator.userAgent.match(/IEMobile/i)
+        ) ? true : false);
+    }
+
+    // Handle Work Popup
     var handleWorkPopup = function() {
         var overlay = $('.work-popup-overlay'),
             close = $('.work-popup-close'),
@@ -15,13 +26,14 @@ const layout = function () {
             overlay.removeClass('work-popup-overlay-show');
         });
     }
+
     return {
-      init: function () {
-        handleWorkPopup() // initial setup for work
-      }
-    }
-}
+        init: function () {
+            handleWorkPopup(); // initial setup for group work popup
+        },
+    };
+}();
 
 $(document).ready(function() {
-  layout.init()
-})
+    Layout.init();
+});
