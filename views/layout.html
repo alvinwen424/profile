@@ -4,7 +4,7 @@
     <title>Alvin Wen's profile pages</title>
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-      <link href="style.css" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <div class="wrapper">
@@ -40,20 +40,164 @@
           </p>
         </div>
       </div>
-      <div class="projects">
-        <div class="title">
-          <h2>Projects</h2>
+        <!-- Work -->
+        <div id="work">
+            <div class="container content-lg">
+                <div class="row">
+                    <div class="col-sm-3 sm-margin-b-30">
+                        <div class="text-right sm-text-left">
+                            <h2 class="margin-b-0">Projects</h2>
+                            <p>Analysts are predicting</br>exponential growth.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-sm-offset-1">
+                        <!-- Masonry Grid -->
+                        <div class="masonry-grid row row-space-2">
+                            <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
+                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-8 margin-b-4">
+                                <!-- Work -->
+                                <div class="work work-popup-trigger">
+                                    <div class="work-overlay">
+                                        <img class="full-width img-responsive" src="images/ngage.png" alt="Portfolio Image">
+                                    </div>
+                                    <div class="work-popup-overlay">
+                                        <div class="work-popup-content">
+                                            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                            <div class="margin-b-30">
+                                                <h3 class="margin-b-5">AtomizeThis</h3>
+                                                <span>Web Scraping & Data Visualization</span>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                                    <div class="margin-t-10 sm-margin-t-0">
+                                                        <p>AtomizeThis is a web application that utilizes web scraping to create a visual map of the Wikipedia articles most relevant to a user-inputted
+                                                            topic.</p>
+                                                        <p>How it works:
+                                                            Type anything you'd like into the search bar and we'll show you related Wikipedia articles as suggestions.
+                                                            Select one, press enter, and you'll see a visualization of your query surrounded by nodes representing
+                                                            the articles most relevant to it. Click any surrounding node and the process will repeat. Keeping clicking to
+                                                            go further "down the wiki hole."</p>
+
+                                                        <p>A fun game:
+                                                            Enter two queries separately and try to connect them by clicking their branch nodes.</p>
+                                                        <ul class="list-inline work-popup-tag">
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link">Web Scraping,</a></li>
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link">Data Analysis,</a></li>
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link">Data Visualization,</a></li>
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link">Design</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <div class="margin-t-10 sm-margin-t-0">
+                                                        <br class="margin-b-5"><strong>Team Members:</strong> </br>Kieran Derfus </br>Truman Purnell</br>Anthony Watson</br>Calvin Lin</p>
+                                                        <p class="margin-b-5"><strong>Project Status:</strong> </br>Deployed</p>
+                                                        <p class="margin-b-5"><strong>Github Repository: </strong><p> <a href="https://github.com/AtomizeThis/atomizer" target="_blank">AtomizeThis</a></p>
+                                                        <p class="margin-b-5"><strong>Deployed Link: </strong><p> <a href="https://atomizer.herokuapp.com/" target="_blank">atomize.live</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Work -->
+                            </div>
+                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4">
+                                <!-- Work -->
+                                <div class="work work-popup-trigger">
+                                    <div class="work-overlay">
+                                        <img class="full-width img-responsive" src="images/communityhouse.png" alt="Portfolio Image">
+                                    </div>
+                                    <div class="work-popup-overlay">
+                                        <div class="work-popup-content">
+                                            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                            <div class="margin-b-30">
+                                                <h3 class="margin-b-5">MediaGrabber</h3>
+                                                <span>Clean &amp; Minimalistic Design</span>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                                    <div class="margin-t-10 sm-margin-t-0">
+                                                        <p>Media Grabber fetches and parses image information from JSON data hosted at 'unsplash.it/list', then formats the images to custom fit your screen and makes them available for download.</p>
+                                                        <p>Inspired by 'Splash Walls' by Nash Vail, I built this React-Native application in 36 hours for Fullstack Academy's 'Stackathon.' Credit for the idea goes entirely to Nash, the
+                                                            implementation is my own.</p>
+                                                        <p>Places for Improvement: Optimization. Pictures occasionally take up to 30 seconds to render.</p>
+                                                        <ul class="list-inline work-popup-tag">
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">React-Native,</a></li>
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">iOS,</a></li>
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Design</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <div class="margin-t-10 sm-margin-t-0">
+                                                        <p class="margin-b-5"><strong>Team Members:</strong> Kieran Derfus</p>
+                                                        <p class="margin-b-5"><strong>Project Status:</strong> Completed</p>
+                                                        <p class="margin-b-5"><strong>Github Repository: </strong><p> <a href="https://github.com/kieran9176/MediaGrabber" target="_blank">MediaGrabber</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Work -->
+                            </div>
+                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-8 md-margin-b-4">
+
+                                <!-- Work -->
+                                <div class="work work-popup-trigger">
+                                    <div class="work-overlay">
+                                        <img class="full-width img-responsive" src="images/songit.png" alt="Portfolio Image">
+                                    </div>
+                                    <div class="work-popup-overlay">
+                                        <div class="work-popup-content">
+                                            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                            <div class="margin-b-30">
+                                                <h3 class="margin-b-5">GuitarShopper</h3>
+                                                <span>E-Commerce React App</span>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                                    <div class="margin-t-10 sm-margin-t-0">
+                                                        <p>GuitarShopper is an e-commerce React application for a fictional guitar retailer.</p>
+                                                        <p>Built in 4 days for Fullstack Academy's 'Grace Shopper' project, GuitarShopper utilizes both local and OAuth login to allow users to shop through a set of guitars,
+                                                        add their choice(s) to their cart, and 'checkout.'</p>
+                                                        <p>Places for improvement: Sloppy organization, unprofessional practices (git, code style).</p>
+                                                        <ul class="list-inline work-popup-tag">
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">UI,</a></li>
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">React,</a></li>
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Redux,</a></li>
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Express.js,</a></li>
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Sequelize</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <div class="margin-t-10 sm-margin-t-0">
+                                                        <p class="margin-b-5"><strong>Team Members:</strong> </br>Kieran Derfus </br>Matthew Snow </br>Mikhail Qader </p>
+                                                        <p class="margin-b-5"><strong>Project Status: </strong>95% Complete</p>
+                                                        <p class="margin-b-5"><strong>Github Repository: </strong><p> <a href="https://github.com/kieran9176/guitar-shopper-app" target="_blank">GuitarShopper</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Work -->
+                            </div>
+                        <!-- End Masonry Grid -->
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
         </div>
-          <a href="https://ngage-fae7f.firebaseapp.com/">Ngage</a></li>
-          <a href="">Community Housing</a></li>
-          <a href="">Food Race</a></li>
-          <a href="">Song-it</a></li>
-      </div>
+
       <div class="footer">
         <a href='mailto:alvinwen424@gmail.com'> Email: alvinwen424@gmail.com </a>
         <a href='tel:+9178038883' > Phone: (917)803-8883 </a>
       </div>
     </div>
+  <script src="js/scripts.js"></script>
   </body>
 
 </html>
